@@ -10,6 +10,7 @@
 using namespace std;
 
 int menu::initMenu() {
+    cout << " Bienvenue sur Morpion Héro!!" << endl << endl;
     cout << "--------------------------------------------Menu:--------------------------------------------" << endl;
     cout << "Option 1- Info" << endl;
     cout << "Option 2- Jouer" << endl;
@@ -29,7 +30,7 @@ int menu::initMenu() {
                         "Mais, le problème dans tout ça est leur force, ils ne peuvent pas se battre, de peur de blesser des innocents. \n"
                         "Ils finissent alors par ce mettre d’accord et donc régler leur compte autour du jeu du Morpion.\n"
                         "\n"
-                        "\tChoisissez votre camp !" << endl;
+                        "Choisissez votre camp !" << endl;
         menu Menu;
         Menu.initMenu();
     }
